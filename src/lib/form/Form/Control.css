@@ -1,0 +1,28 @@
+.Control {
+  position: relative;
+  display: flex;
+}
+
+.Control .Input{
+  width: 100%;
+}
+
+.Control-Label {
+  margin: 5px;
+  width: 20%;
+  line-height: 2.5;
+  font-size: 13px;
+}
+
+.Control.Control-full {
+  flex-direction: column;
+}
+
+.Control.Control-full .Control-Label{
+  line-height: 1;
+  width: initial;
+}
+
+.Control.Control-full .Input{
+  width: initial;
+}

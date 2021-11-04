@@ -1,0 +1,10 @@
+.Input {
+  border: 2px solid rgb(228, 223, 223);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.Input:hover {
+  border-color: rgb(196, 194, 194);
+}

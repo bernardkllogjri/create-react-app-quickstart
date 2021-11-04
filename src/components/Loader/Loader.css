@@ -1,0 +1,13 @@
+.Loader {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255 255 255 / 50%);
+  border-radius: 20px;
+}
